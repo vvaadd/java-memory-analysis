@@ -46,4 +46,6 @@
     </bean>
 
 
+    <bean class="org.springframework.samples.petclinic.spring.Cleaner"/>
+
 </beans>
