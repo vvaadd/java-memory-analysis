@@ -166,7 +166,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <scope>runtime</scope>
+            <scope>compile</scope>
         </dependency>
 
         <!-- Date and Time -->
@@ -193,11 +193,11 @@
         </dependency>
 
         <!-- For MySql only -->
-        <!--dependency>
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-driver.version}</version>
-        </dependency-->
+        </dependency>
 
         <!-- HIBERNATE -->
         <dependency>
